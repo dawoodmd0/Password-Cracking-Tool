@@ -6,7 +6,14 @@ backend/*/__pycache__/
 *.pyo
 *.pyd
 
-# Database & Environment
+# Environment files
+.env
+*.env
+backend/.env
+frontend/.env
+!.env.example
+
+# Database files
 backend/sql_app.db
 backend/*.db
 
