@@ -32,7 +32,7 @@ Before starting, ensure you have the following installed on your machine:
 Open your terminal or command prompt and run:
 ```bash
 git clone https://github.com/dawoodmd0/Passoword-Cracking-Tool.git
-cd "Password Cracking Tool"
+cd "Password-Cracking-Tool"
 ```
 
 ---
