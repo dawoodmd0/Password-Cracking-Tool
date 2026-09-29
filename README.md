@@ -68,7 +68,7 @@ You will need **two terminal windows** open (one for the Backend and one for the
    ```
 5. Start the backend server:
    ```cmd
-   uvicorn main:app --reload
+   python -m uvicorn main:app --reload
    ```
    > Backend server running at: **`http://localhost:8000`** (API Docs at `http://localhost:8000/docs`).
 
