@@ -75,7 +75,6 @@ You will need **two terminal windows** open (one for the Backend and one for the
 ---
 
 #### 🐧 Linux
-
 1. Open a terminal and navigate to the backend directory:
    ```bash
    cd backend
@@ -133,7 +132,9 @@ You will need **two terminal windows** open (one for the Backend and one for the
 Open a **second terminal window** to run the frontend application.
 
 #### 🪟 Windows, 🐧 Linux & 🍏 macOS
-
+```bash
+cd "Password Cracking Tool"
+```
 1. Navigate to the `frontend` directory from the repository root:
    ```bash
    cd frontend
