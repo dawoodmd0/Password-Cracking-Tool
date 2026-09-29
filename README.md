@@ -133,7 +133,7 @@ Open a **second terminal window** to run the frontend application.
 
 #### 🪟 Windows, 🐧 Linux & 🍏 macOS
 ```bash
-cd "Password Cracking Tool"
+cd "Password-Cracking-Tool"
 ```
 1. Navigate to the `frontend` directory from the repository root:
    ```bash
