@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-dark: #0a0a0f;
+  --color-cyber-light: #e0e0e0;
+  --color-cyber-green: #00ff41;
+  --color-cyber-red: #ff3333;
+  --color-cyber-blue: #00d2ff;
+  --color-cyber-card: #1a1a24;
+  --color-cyber-border: #333344;
+}
+
+body {
+  background-color: var(--color-cyber-dark);
+  color: var(--color-cyber-light);
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cyber-card {
+  background-color: var(--color-cyber-card);
+  border: 1px solid var(--color-cyber-border);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.cyber-input {
+  background-color: #0d0d12;
+  border: 1px solid var(--color-cyber-border);
+  color: var(--color-cyber-light);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  outline: none;
+}
+
+.cyber-input:focus {
+  border-color: var(--color-cyber-blue);
+}
+
+.cyber-button {
+  background-color: transparent;
+  border: 1px solid var(--color-cyber-blue);
+  color: var(--color-cyber-blue);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.cyber-button:hover {
+  background-color: var(--color-cyber-blue);
+  color: var(--color-cyber-dark);
+}
